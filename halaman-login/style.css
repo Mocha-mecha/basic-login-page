@@ -1,0 +1,117 @@
+body {
+
+    margin: -10px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(178, 166, 141);
+    font-family: Helvetica, sans-serif;
+}   
+
+.main{
+    border: 3px solid #d0c6ba;
+    margin: 0;
+    width: 40vh;
+    height: 100vh;
+    background-color: rgb(214, 202, 187);
+    box-shadow: 0px 5px 25px rgb(109, 100, 100);
+    padding: 50px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main h1 {
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.login #username{
+    background-color: #f9f4f4;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgb(107, 99, 99);
+    transition: transform 0.3s ease,
+                box-shadow 0.3 ease;
+}
+.password #password {
+    background-color: #f9f4f4;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgb(107, 99, 99);
+    transition: transform 0.3s ease,
+                box-shadow 0.3 ease;
+}
+
+#username:hover{
+    background-color: white;
+    transform:  scale (1.05);
+    box-shadow: 0px 0px 5px gray;
+}
+#password:hover {
+    background-color: white;
+    transform:  scale (1.05);
+    box-shadow: 0px 0px 5px gray;
+}
+
+button {
+    background-color: rgb(221, 221, 239);
+    padding: 5px 50px;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: inherit;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #666;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3 ease,
+                box-shadow 0.3 ease;
+}
+button:hover{
+    box-shadow: 0px 3px 5px gray;
+}
+button {   
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.logo{
+margin-left: 20px;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+
+}
+.logo ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    
+}
+.logo img {
+    max-width: 100px;
+    height: auto;
+    cursor: pointer;
+    box-shadow: 0px 2px 1px #666;
+    transition: transform 0.3 ease,
+                box-shadow 0.3 ease;
+    border-radius: 20px;
+}
+.logo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 3px 5px gray;
+}
+p { 
+    
+    font: 13px/10px Helvetica;
+    margin-bottom: 5px;
+}
